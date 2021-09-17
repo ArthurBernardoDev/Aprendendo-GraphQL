@@ -4,15 +4,8 @@
   "main": "index.js",
   "license": "MIT",
   "dependencies": {
-    "bootswatch": "^4.4.1",
-    "graphql-yoga": "^1.18.3",
-    "mongoose": "^5.9.5"
+    "apollo-server": "^3.3.0",
+    "graphql": "^15.5.3"
   },
-  "devDependencies": {
-    "@babel/cli": "^7.8.4",
-    "@babel/core": "^7.9.0",
-    "@babel/node": "^7.8.7",
-    "@babel/preset-env": "^7.9.0",
-    "nodemon": "^2.0.2"
-  }
+  "devDependencies": {}
 }
