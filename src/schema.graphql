@@ -1,0 +1,18 @@
+type User {
+  id: ID!
+  name: String!
+  email: String!
+  # O sinal de ! faz com que a informação seja obrigatória
+}
+
+type Query {
+  users: [User!]!
+  # O [User!] garante que tudo que tiver dentro do Array tem que ser do type User
+  # O [User!]! toda requisição de users deve retornar o Array, ela não pode retornar Null
+
+  user(id: ID!): User
+}
+
+type Mutation {
+  createUser(name: String!, email: String!): User
+}
