@@ -25,6 +25,6 @@ Imagine um cenário onde existe uma ApiRest e um Front-end web onde o front-end 
  
  Se sua aplicação estiver rodando na AWS -> Pay per use: pago por uso, ou seja você vai pagar pela quantidade de dados (bytes) trafegados na rede. Se você fizer uma requisição onde todos os dados não são utilizados, você estaria aumentando o custo da aplicação, sem qualquer utilidade.
  
- O nome dado pra esse tipo de caso explicado acima é Overfetching, que é quando o cliente trafega mais dados do que ele precisa.
+ O nome dado para esse tipo de caso explicado acima é Overfetching, que é quando o cliente trafega mais dados do que ele precisa.
 
 ---
