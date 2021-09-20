@@ -3,9 +3,14 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
+  "scripts": {
+    "dev": "npx nodemon src/index.js"
+  },
   "dependencies": {
     "apollo-server": "^3.3.0",
     "graphql": "^15.5.3"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
 }
